@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import Homeview from './pages/Homeview';
 import LMVview from './pages/lmv';
 import OptimizedMultiplierView from './pages/omv';
@@ -17,7 +17,7 @@ export default function App() {
   }
   return (
     <div className=''>
-      <BrowserRouter>
+      <HashRouter>
         {Navbar()}
         <div className=' mt-20'></div>
         {/* {Homeview()} */}
@@ -33,7 +33,7 @@ export default function App() {
           
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
