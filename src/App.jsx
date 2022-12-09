@@ -22,7 +22,7 @@ export default function App() {
         <div className=' mt-20'></div>
         {/* {Homeview()} */}
         <Routes>
-          <Route path='/' element={Homeview()}></Route>
+          <Route path='/binary-operations' element={Homeview()}></Route>
           <Route path='/longmultiplication' element={LMVview()}></Route>
           <Route path='/optimizedmultiplier' element={OptimizedMultiplierView()}></Route>
           <Route path='/mipsmultiplication' element={BMMVview()}></Route>
