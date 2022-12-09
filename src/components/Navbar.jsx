@@ -17,10 +17,10 @@ let Navbar = () => {
     return (
         <div className=' bg-[#2f2f2f] rounded-b-lg fixed w-full top-0 ease-in-out'>
             <div className="  max-w-[1280px] flex items-center justify-between flex-wrap  mx-auto px-4 ease-in-out duration-1000">
-                <Link to={'/binary-operations'}><img src={logo} width={110} className=' hover:scale-110 ease-in-out duration-300 ' /></Link>
+                <Link to={'/'}><img src={logo} width={110} className=' hover:scale-110 ease-in-out duration-300 ' /></Link>
                 <ul className=' md:flex flex-wrap hidden items-center'>
                     <li className=' p-1 text-white'>
-                        <Link to={'/binary-operations'} className=' hover:bg-[#3f3f3f] py-2 px-4 rounded-full font-bold'>Home</Link>
+                        <Link to={'/'} className=' hover:bg-[#3f3f3f] py-2 px-4 rounded-full font-bold'>Home</Link>
 
                     </li>
                     <li className=' p-1 text-white'>
@@ -54,7 +54,7 @@ let Navbar = () => {
                     </div>
                 </div>
                 <ul className={mobileNavbar ? 'flex flex-wrap flex-col justify-center w-screen md:hidden m-1 ' : 'hidden'}>
-                    <Link to={'/binary-operations'} className='rounded-full' onClick={changeNavbar}>
+                    <Link to={'/'} className='rounded-full' onClick={changeNavbar}>
                         <li className=' p-3  my-2 w-full bg-[#3f3f3f] rounded-full text-white hover:bg-[#333232]'>
                             <div className=' px-5 rounded-full font-bold w-3/4'>Home</div>
 

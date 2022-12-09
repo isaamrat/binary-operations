@@ -17,12 +17,12 @@ export default function App() {
   }
   return (
     <div className=''>
-      <BrowserRouter>
+      <HashRouter>
         {Navbar()}
         <div className=' mt-20'></div>
         {/* {Homeview()} */}
         <Routes>
-          <Route path='/binary-operations' element={Homeview()}></Route>
+          <Route path='/' element={Homeview()}></Route>
           <Route path='/longmultiplication' element={LMVview()}></Route>
           <Route path='/optimizedmultiplier' element={OptimizedMultiplierView()}></Route>
           <Route path='/mipsmultiplication' element={BMMVview()}></Route>
@@ -33,7 +33,7 @@ export default function App() {
           
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
