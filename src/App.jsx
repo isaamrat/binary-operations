@@ -17,7 +17,7 @@ export default function App() {
   }
   return (
     <div className=''>
-      <HashRouter>
+      <BrowserRouter>
         {Navbar()}
         <div className=' mt-20'></div>
         {/* {Homeview()} */}
@@ -33,7 +33,7 @@ export default function App() {
           
 
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
 }
