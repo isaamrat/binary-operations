@@ -122,8 +122,8 @@ const LMVview = () => {
                             <div className=" py-4  lg:p-4 m-3  flex flex-col justify-center">
                                 <h1 className=" text-center font-bold text-xl">The product of {mlprmlpd[0]} & {mlprmlpd[1]} :</h1>
                                 <h1 className= {product[1]=='none'?"hidden":" text-center font-bold text-2xl text-[#00c0ff] my-5 overflow-auto"} >({product[0]})<sub>10</sub></h1>
-                                <h1 className={product[1]=='none'?"hidden":" text-center font-bold text-2xl text-[#00c0ff] overflow-auto"}>({product[1]})<sub>2</sub></h1>
-                                <h1 className={product[1]!='none'?"hidden":" text-center font-bold text-2xl text-[#00c0ff]"}>{product[0]}</h1>
+                                {/* <h1 className={product[1]=='none'?"hidden":" text-center font-bold text-2xl text-[#00c0ff] overflow-auto"}>({product[1]})<sub>2</sub></h1> */}
+                                <h1 className={product[1]!='none'?"hidden":" text-center font-bold text-xl text-[#00c0ff]"}>{product[0]}</h1>
                             </div>
                         </div>
                     </div>
