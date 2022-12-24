@@ -8,7 +8,9 @@ import BMMVview from './pages/bmmv';
 import Decieeefloatview from './pages/dieeef';
 import AboutView from './pages/About';
 import ContactView from './pages/Contact';
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-238493150-1');
 
 
 export default function App() {
