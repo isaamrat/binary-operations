@@ -3,6 +3,7 @@ import githubIcon from "../assets/github-mark-white.png"
 import gmailIcon from "../assets/gmail.png"
 import facebookIcon from "../assets/facebook.png"
 import ppIcon from "../assets/pp_bg.png"
+import samPic from "../assets/sam_square.jpg"
 
 
 
@@ -19,7 +20,7 @@ const ContactView = () => {
                 </div>
                 <div className=' lg:grid grid-cols-2 p-5 text-black'>
                     <div className="  w-full grid place-items-center ">
-                        <img src={ppIcon} width={250} className='  rounded-full' />
+                        <img src={samPic} width={250} className='  rounded-full' />
 
                     </div>
                     <div className="  w-full flex flex-col space-y-3  mt-5 lg:mt-0 md:items-center lg:items-start">

@@ -24,11 +24,18 @@ const AboutView = () => {
                             <h1 className=' text-2xl md:text-2xl font-bold w-full  text-white text-center'>  Binary Operations</h1>
                             <h1 className=' text-lg font-bold text-white text-justify'>  This tool was created to assist students with a variety of binary operations. Since a computer works in binary, it is crucial to comprehend how these operations are carried out behind the scenes.  </h1>
                             <h1 className=' text-lg font-bold text-white text-justify'>  This tool is developed by Md. Khaliduzzaman Khan Samrat, an student of Computer Science and Engineering Department of BRAC University. I got the idea of developing something like this while doing a course CSE340 named Computer Architecture. In this course there is part where it is tought how the computer deal with binary numbers and does various operations. I wanted to build a tool where students can understand those concepts in a interactive way.  </h1>
-                            <h1 className=' text-lg font-bold text-[#ff5e00] text-justify'>  If you find any discrepency, let the developer know. You can get the deveoper contacts from the Contact tab on the top.</h1>
+                            <h1 className=' text-lg font-bold text-[#ff5e00] text-justify'>  If you find any discrepency, let the developer know. You can get the deveoper's contact from the Contact tab on the top.</h1>
                         </div>
                         <div>
-                            <h1 className=' text-lg font-bold text-white mt-5'>  Technology behind this tool:</h1>
-                            <ul className="text-lg font-bold text-white list-disc pl-5 " >
+                            <h1 className=' text-lg font-bold text-[#ffc0ff] mt-5'>  Dedicated to:</h1>
+                            <ul className="text-lg font-bold text-[#ffc0ff] list-disc pl-5 " >
+                                <li>Afia Fairoose Abedin <a1 className='font-thin text-sm'>,Lecturer at BRAC University</a1> </li>
+                                <li>Fairoz Nower Khan <a1 className='font-thin text-sm'>,Lecturer at BRAC University</a1> </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h1 className=' text-lg font-bold text-[#00c0ff] mt-5'>  Technology used:</h1>
+                            <ul className="text-lg font-bold text-[#00c0ff] list-disc pl-5 " >
                                 <li>Vite JS</li>
                                 <li>React JS</li>
                                 <li>Java Script</li>
