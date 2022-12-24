@@ -10,7 +10,7 @@ import AboutView from './pages/About';
 import ContactView from './pages/Contact';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-238493150-1');
+ReactGA.initialize('G-VF40MD4D2G');
 
 
 export default function App() {
