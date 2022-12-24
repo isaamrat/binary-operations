@@ -17,6 +17,7 @@ export default function App() {
   function test() {
     console.log('yes')
   }
+  ReactGA.event({'action':'visited'});
   return (
     <div className=''>
       <HashRouter>
